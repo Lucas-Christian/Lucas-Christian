@@ -4,7 +4,7 @@
 
 ## 🚀 Sobre mim
 Eu tenho 17 anos, moro no Brasil, comecei a 
-programar faz 2 anos, parei depois de alguns meses, por 
+programar faz 2 anos, parei depois de alguns meses por 
 alguns motivos, mas nunca sequer pensei em parar de 
 programar, voltei recentemente, neste ano de 2022
 antes eu programava bots para o discord, pretendo fazer
