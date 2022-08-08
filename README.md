@@ -14,7 +14,9 @@ alguns por diversão, mas meu foco agora é em websites.
 ## 🛠 Habilidades
 Javascript, HTML, CSS...
 
-<img src="https://github.com/Lucas-Christian/Lucas-Christian/blob/main/JavaScript-logo.png?raw=true" alt="Logo JavaScript" width="75" height="85" />
+<img src="https://github.com/Lucas-Christian/Lucas-Christian/blob/main/JavaScript-logo.png?raw=true" alt="Logo JavaScript" width="75" height="75" />
+<img src="https://github.com/Lucas-Christian/Lucas-Christian/blob/main/HTML-logo.png?raw=true" alt="Logo HTML" width="75" height="75" />
+<img src="https://github.com/Lucas-Christian/Lucas-Christian/blob/main/CSS-logo.png?raw=true" alt="Logo CSS" width="75" height="75" />
 
 ## Outras seções comuns em perfis do GitHub
 👩‍💻 Atualmente sou um estudante do ensino médio, e 
