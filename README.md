@@ -1,16 +1,41 @@
-### Hi there 👋
 
-<!--
-**Lucas-Christian/Lucas-Christian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Olá, meu nome é Lucas Christian! 👋
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Sobre mim
+Eu tenho 17 anos, moro no Brasil, comecei a 
+programar faz 2 anos, parei depois de alguns meses, por 
+alguns motivos, mas nunca sequer pensei em parar de 
+programar, voltei recentemente, neste ano de 2022
+antes eu programava bots para o discord, pretendo fazer
+alguns por diversão, mas meu foco agora é em websites.
+
+
+## 🛠 Habilidades
+Javascript, HTML, CSS...
+
+<img src="https://github.com/Lucas-Christian/Lucas-Christian/blob/main/JavaScript-logo.png?raw=true" alt="Logo JavaScript" width="250" height="250" />
+
+## Outras seções comuns em perfis do GitHub
+👩‍💻 Atualmente sou um estudante do ensino médio, e 
+não trabalho.
+
+🧠 Estou aprendendo React e Next.
+
+👯‍♀️ Procuro colaborar em projetos onde eu 
+possa aprender bastante.
+
+💬 Me pergunte sobre JavaScript.
+
+📫 Para entrar em contato comigo pode mandar um email
+com o seu discord, e o motivo do contato, ou colocar um
+issues aqui mesmo.
+
+⚡️ Minha cabeça é grande.
+
+
+## 🔗 Links
+[![Youtube](https://img.shields.io/badge/Youtube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/c/LordLuch)
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-christian-226846245/)
+
