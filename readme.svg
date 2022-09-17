@@ -1,11 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 800 400" width="800" height="400">
-	<foreignObject width="100%" height="100%">
-		<div xmlns="http://www.w3.org/1999/xhtml">
-			<style>
-				
-			</style>
-			<div class="container">
-				<h1>Olá, meu nome é Lucas Christian! 👋</h1>
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+					font-family:
+						system-ui,
+						-apple-system,
+						'Segoe UI',
+						Roboto,
+						Helvetica,
+						Arial,
+						sans-serif;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+					margin: 0;
+				}
+      </style>
+      <div class="container">
+	<h1>Olá, meu nome é Lucas Christian! 👋</h1>
         <img src="https://github-readme-stats.vercel.app/api?username=Lucas-Christian&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" alt="LordLuch's Github stats"/>
         <h2>🚀 Sobre mim</h2>
           <p>
@@ -51,7 +65,7 @@
           <a target="_blank" href="https://www.youtube.com/c/LordLuch"><img src="https://img.shields.io/badge/Youtube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Logo" /></a>
           <a target="_blank" href="https://www.linkedin.com/in/lucas-christian-226846245/"><img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Logo" /></a>
         </div>
-			</div>
-		</div>
-	</foreignObject>
+      </div>
+    </div>
+  </foreignObject>
 </svg>
