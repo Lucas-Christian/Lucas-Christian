@@ -19,7 +19,7 @@
     <img src="https://github.com/Lucas-Christian/Lucas-Christian/blob/main/HTML-logo.png?raw=true" alt="Logo HTML" width="75" height="75" />
     <img src="https://github.com/Lucas-Christian/Lucas-Christian/blob/main/CSS-logo.png?raw=true" alt="Logo CSS" width="75" height="75" />
   </div>
-<h2>Curiosidades...</h2>
+<h2>👀 Curiosidades...</h2>
   <p>
     👩‍💻 Atualmente sou um estudante do ensino médio, e 
     não trabalho.
