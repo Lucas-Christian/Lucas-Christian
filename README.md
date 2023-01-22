@@ -13,23 +13,18 @@
   <h2>🚀 Sobre mim</h2>
   <p>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eu tenho 17 anos, moro 
-    no Brasil, comecei a programar faz 2 anos, parei depois de 
-    alguns meses por alguns motivos, mas nunca sequer pensei 
-    em parar de programar, voltei recentemente, neste ano de 
-    2022 antes eu programava bots para o discord, pretendo 
-    fazer alguns por diversão, mas meu foco agora é em websites.
+    no Brasil, faço bots, websites, aplicativos multiplataforma, etc...
   </p>
 <h2>👀 Curiosidades...</h2>
   <p>
-    👩‍💻 Atualmente sou um estudante do ensino médio, e 
+    👩‍💻 Atualmente sou um universitário na Fatec de Cotia, e 
     não trabalho.
   </p>
   <p>
-    🧠 Estou aprendendo a fazer testes automatizados com vitest.
+    🧠 Estou aprendendo a fazer projetos ainda mais limpos.
   </p>
   <p>
-    👯‍♀️ Procuro colaborar em projetos onde eu 
-    possa aprender bastante.
+    👯‍♀️ Procuro colaborar em projetos onde eu possa aprender bastante.
   </p>
   <p>
     💬 Me pergunte sobre JavaScript.
