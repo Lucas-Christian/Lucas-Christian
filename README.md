@@ -13,7 +13,9 @@
   <h2>🚀 Sobre mim</h2>
   <p>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eu tenho 17 anos, moro 
-    no Brasil, faço bots, websites, aplicativos multiplataforma, etc...
+    no Brasil, sou um Desenvolvedor de Software Iniciante 
+    já fiz bots no discord, fiz websites(com React, Typescript, Next, Prisma, Tailwind...), 
+    faço aplicativos multiplataforma também, pretendo fazer o <a target="_blank" href="https://github.com/Lucas-Christian/compressor">compressor</a> ser um aplicativo multiplataforma, etc...
   </p>
 <h2>👀 Curiosidades...</h2>
   <p>
