@@ -13,9 +13,9 @@
   <h2>🚀 Sobre mim</h2>
   <p>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eu tenho 18 anos, moro 
-    no Brasil, sou um Desenvolvedor de Software Iniciante 
-    já fiz bots no discord, fiz websites(com React, Typescript, Next, Prisma, TailwindCSS...), 
-    faço aplicativos multiplataforma também.
+    no Brasil, sou um Desenvolvedor de Software Multiplataforma 
+    já fiz bots no discord, fiz websites(com React, Typescript, Next, Prisma, TailwindCSS...), e 
+    faço aplicativos multiplataforma.
   </p>
 <h2>👀 Curiosidades...</h2>
   <p>
