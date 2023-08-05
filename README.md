@@ -19,8 +19,8 @@
   </p>
 <h2>👀 Curiosidades...</h2>
   <p>
-    👩‍💻 Atualmente sou um universitário na Fatec de Cotia, e 
-    não trabalho.
+    👩‍💻 Atualmente sou um universitário na Fatec de Cotia, estou no curso 
+    Desenvolvimento de Software Multiplataforma e não estou trabalhando atualmente.
   </p>
   <p>
     🧠 Estou aprendendo a fazer projetos ainda mais limpos.
