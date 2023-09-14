@@ -20,7 +20,7 @@
 <h2>👀 Curiosidades...</h2>
   <p>
     👩‍💻 Atualmente sou um universitário na Fatec de Cotia, estou no curso 
-    Desenvolvimento de Software Multiplataforma e não estou trabalhando atualmente.
+    Desenvolvimento de Software Multiplataforma e não estou estagiando.
   </p>
   <p>
     🧠 Estou aprendendo a fazer projetos ainda mais limpos.
@@ -29,7 +29,7 @@
     👯‍♀️ Procuro colaborar em projetos onde eu possa aprender bastante.
   </p>
   <p>
-    💬 Me pergunte sobre JavaScript.
+    💬 Me pergunte sobre TypeScript.
   </p>
   <p>
     📫 Para entrar em contato comigo pode mandar um email
