@@ -4,8 +4,8 @@
     <img src="https://github-readme-stats.vercel.app/api?username=Lucas-Christian&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" alt="LordLuch's Github stats"/>
   </div>
   <div>
-    <img src="https://github.com/Lucas-Christian/Lucas-Christian/blob/main/JavaScript-logo.png?raw=true" alt="Logo JavaScript" width="75" height="85" />
     <img src="https://github.com/Lucas-Christian/Lucas-Christian/blob/main/HTML-logo.png?raw=true" alt="Logo HTML" width="75" height="75" />
+    <img src="https://github.com/Lucas-Christian/Lucas-Christian/blob/main/JavaScript-logo.png?raw=true" alt="Logo JavaScript" width="75" height="85" />
     <img src="https://github.com/Lucas-Christian/Lucas-Christian/blob/main/CSS-logo.png?raw=true" alt="Logo CSS" width="75" height="75" />
   </div>
 </div>
