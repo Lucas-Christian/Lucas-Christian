@@ -12,7 +12,7 @@
 <div align="justify">
   <h2>🚀 Sobre mim</h2>
   <p>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eu tenho 18 anos, moro 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eu tenho 19 anos, moro 
     no Brasil, sou um Desenvolvedor de Software Multiplataforma 
     já fiz bots no discord, fiz websites(com React, Typescript, Next, Prisma, TailwindCSS...), e 
     faço aplicativos multiplataforma.
