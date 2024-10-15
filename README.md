@@ -15,7 +15,7 @@
 <h2>👀 Curiosidades...</h2>
   <p>
     👩‍💻 Atualmente sou um universitário na Fatec de Cotia, estou no curso 
-    Desenvolvimento de Software Multiplataforma e não estou estagiando.
+    Desenvolvimento de Software Multiplataforma e estou estagiando.
   </p>
   <p>
     🧠 Estou aprendendo a fazer projetos ainda mais limpos.
