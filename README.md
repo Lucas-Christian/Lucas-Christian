@@ -1,38 +1,36 @@
 <div align="center">
-  <h1>Olá, meu nome é Lucas Christian! 👋</h1>
+  <h1>Hello, my name is Lucas Christian! 👋</h1>
   <div>
     <img src="https://github-readme-stats.vercel.app/api?username=Lucas-Christian&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" alt="LordLuch's Github stats"/>
   </div>
 </div>
 <div align="justify">
-  <h2>🚀 Sobre mim</h2>
-  <p>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eu tenho 19 anos, moro 
-    no Brasil, sou um Desenvolvedor de Software Multiplataforma 
-    já fiz bots no discord, fiz websites(com React, Typescript, Next, Prisma, TailwindCSS...), e 
-    faço aplicativos multiplataforma.
-  </p>
-<h2>👀 Curiosidades...</h2>
-  <p>
-    👩‍💻 Atualmente sou um universitário na Fatec de Cotia, estou no curso 
-    Desenvolvimento de Software Multiplataforma e estou estagiando.
-  </p>
-  <p>
-    🧠 Estou aprendendo a fazer projetos ainda mais limpos.
-  </p>
-  <p>
-    👯‍♀️ Procuro colaborar em projetos onde eu possa aprender bastante.
-  </p>
-  <p>
-    💬 Me pergunte sobre TypeScript.
-  </p>
-  <p>
-    📫 Para entrar em contato comigo pode mandar um email
-    com o seu discord, e o motivo do contato, ou colocar um
-    issues aqui mesmo.
-  </p>
-  <p>
-    ⚡️ Minha cabeça é grande.
+  <h2>🚀 About Me</h2>  
+  <p>  
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am 20 years old, living in Brazil, and I am a Multiplatform Software Developer.  
+      I have created Discord bots, built websites (using React, TypeScript, Next.js, Prisma, TailwindCSS...),  
+      and developed multiplatform applications.  
+  </p>  
+  <h2>👀 Fun Facts...</h2>  
+  <p>  
+      👩‍💻 I am currently a university student at Fatec Cotia, studying Multiplatform Software Development,  
+      and I am also working as an intern.  
+  </p>  
+  <p>  
+      🧠 I am learning to build even cleaner and more efficient projects.  
+  </p>  
+  <p>  
+      👯‍♀️ I am looking to collaborate on projects where I can learn a lot.  
+  </p>  
+  <p>  
+      💬 Ask me about TypeScript.  
+  </p>  
+  <p>  
+      📫 To get in touch, you can send me an email with your Discord username and the reason for your message,  
+      or simply open an issue here.  
+  </p>  
+  <p>  
+      ⚡️ My head is big.  
   </p>
   <h2>🔗 Links</h2>
   <div>
