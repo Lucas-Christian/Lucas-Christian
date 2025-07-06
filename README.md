@@ -2,7 +2,7 @@
 
 🎯 Frontend Developer passionate about turning ideas into real-world solutions through technology.
 
-📄 You can view my interactive and responsive resume by clicking here: <a href="https://lucas-christian.github.io/Lucas-Christian" target="_blank" style="display: inline-block; padding: 16px 32px; font-size: 18px; font-weight: bold; color: white; background-color: #0077cc; text-decoration: none; border-radius: 8px; width: 100%; max-width: 400px; text-align: center;">📄 View Resume</a>
+📄 You can view my interactive and responsive resume by clicking here: <a href="https://cv.dev-luch.com/" target="_blank" style="display: inline-block; padding: 16px 32px; font-size: 18px; font-weight: bold; color: white; background-color: #0077cc; text-decoration: none; border-radius: 8px; width: 100%; max-width: 400px; text-align: center;">📄 View Resume</a>
 
 ---
 
