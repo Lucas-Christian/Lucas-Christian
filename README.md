@@ -1,40 +1,28 @@
+# 💼 Resume – Lucas Christian
+
+🎯 Frontend Developer passionate about turning ideas into real-world solutions through technology.
+
+📄 You can view my interactive and responsive resume by clicking here: <a href="https://lucas-christian.github.io/Lucas-Christian" target="_blank" style="display: inline-block; padding: 16px 32px; font-size: 18px; font-weight: bold; color: white; background-color: #0077cc; text-decoration: none; border-radius: 8px; width: 100%; max-width: 400px; text-align: center;">📄 View Resume</a>
+
+---
+
+## 🧠 About Me
+
+I'm a self-taught developer passionate about solving real-world problems through technology. I enjoy working from concept to delivery of complete solutions, blending creativity with logic and organization. I have strong communication skills and love collaborating in teams. I’m highly interested in innovation, automation, and process efficiency. My focus is on building purposeful, useful applications that simplify people's lives or optimize business operations.
+
+---
+
+## 📈 GitHub Stats
+
 <div align="center">
-  <h1>Hello, my name is Lucas Christian! 👋</h1>
-  <div>
-    <img src="https://github-readme-stats.vercel.app/api?username=Lucas-Christian&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" alt="Lucas Christian's Github stats"/>
-  </div>
+  <img src="https://github-readme-stats.vercel.app/api?username=Lucas-Christian&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 </div>
-<div align="justify">
-  <h2>🚀 About Me</h2>  
-  <p>  
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am 20 years old, living in Brazil, and I am a Multiplatform Software Developer.  
-      I have created Discord bots, built websites (using React, TypeScript, Next.js, Prisma, TailwindCSS...),  
-      and developed multiplatform applications.  
-  </p>  
-  <h2>👀 Fun Facts...</h2>  
-  <p>  
-      👩‍💻 I am currently a university student at Fatec Cotia, studying Multiplatform Software Development,  
-      and I am also working as an intern.  
-  </p>  
-  <p>  
-      🧠 I am learning to build even cleaner and more efficient projects.  
-  </p>  
-  <p>  
-      👯‍♀️ I am looking to collaborate on projects where I can learn a lot.  
-  </p>  
-  <p>  
-      💬 Ask me about TypeScript.  
-  </p>  
-  <p>  
-      📫 To get in touch, you can send me an email with your Discord username and the reason for your message,  
-      or simply open an issue here.  
-  </p>  
-  <p>  
-      ⚡️ My head is big.  
-  </p>
-  <h2>🔗 Links</h2>
-  <div>
-    <a target="_blank" href="https://www.youtube.com/@dev-luch"><img src="https://img.shields.io/badge/Youtube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Logo" /></a>
-    <a target="_blank" href="https://www.linkedin.com/in/lucas-christian-226846245/"><img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Logo" /></a>
-  </div>
-</div>
+
+---
+
+## 🔗 Links
+
+* 📧 [lucas.christian.programmer@gmail.com](mailto:lucas.christian.programmer@gmail.com)
+* 💼 [LinkedIn](https://www.linkedin.com/in/lucas-christian-226846245/)
+* 💻 [GitHub](https://github.com/Lucas-Christian)
+* 📹 [YouTube - @dev-luch](https://www.youtube.com/@dev-luch)
