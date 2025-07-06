@@ -3,8 +3,31 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Currículo - Lucas Christian</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title id="meta-title">Currículo - Lucas Christian</title>
+  <meta id="meta-description" name="description" content="Currículo interativo e responsivo de Lucas Christian, Desenvolvedor Frontend com experiência em React, TypeScript, Node.js e mais.">
+  <meta name="keywords" content="currículo, frontend, desenvolvedor, react, typescript, lucas christian, programador, web developer, portfolio">
+  <meta name="author" content="Lucas Christian Freitas de Oliveira">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta id="og-title" property="og:title" content="Currículo - Lucas Christian">
+  <meta id="og-description" property="og:description" content="Currículo interativo de Lucas Christian, Desenvolvedor Frontend com foco em performance e acessibilidade.">
+  <meta property="og:image" content="https://lucas-christian.github.io/lucas-curriculo/preview.png">
+  <meta property="og:url" content="https://lucas-christian.github.io/lucas-curriculo">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta id="twitter-title" name="twitter:title" content="Currículo - Lucas Christian">
+  <meta id="twitter-description" name="twitter:description" content="Currículo interativo de Lucas Christian, Desenvolvedor Frontend com foco em performance e acessibilidade.">
+  <meta name="twitter:image" content="https://lucas-christian.github.io/lucas-curriculo/preview.png">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Fontes e bibliotecas -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
@@ -399,6 +422,33 @@
       }
     };
 
+    function updateMetaTags(lang) {
+      const metaTitle = document.getElementById("meta-title");
+      const metaDescription = document.getElementById("meta-description");
+      const ogTitle = document.getElementById("og-title");
+      const ogDescription = document.getElementById("og-description");
+      const twitterTitle = document.getElementById("twitter-title");
+      const twitterDescription = document.getElementById("twitter-description");
+    
+      if (lang === "pt") {
+        document.documentElement.lang = "pt-BR";
+        metaTitle.textContent = "Currículo - Lucas Christian";
+        metaDescription.setAttribute("content", "Currículo interativo e responsivo de Lucas Christian, Desenvolvedor Frontend com experiência em React, TypeScript, Node.js e mais.");
+        ogTitle.setAttribute("content", "Currículo - Lucas Christian");
+        ogDescription.setAttribute("content", "Currículo interativo de Lucas Christian, Desenvolvedor Frontend com foco em performance e acessibilidade.");
+        twitterTitle.setAttribute("content", "Currículo - Lucas Christian");
+        twitterDescription.setAttribute("content", "Currículo interativo de Lucas Christian, Desenvolvedor Frontend com foco em performance e acessibilidade.");
+      } else {
+        document.documentElement.lang = "en-US";
+        metaTitle.textContent = "Resume - Lucas Christian";
+        metaDescription.setAttribute("content", "Interactive and responsive resume of Lucas Christian, Frontend Developer experienced in React, TypeScript, Node.js and more.");
+        ogTitle.setAttribute("content", "Resume - Lucas Christian");
+        ogDescription.setAttribute("content", "Interactive resume of Lucas Christian, Frontend Developer focused on performance and accessibility.");
+        twitterTitle.setAttribute("content", "Resume - Lucas Christian");
+        twitterDescription.setAttribute("content", "Interactive resume of Lucas Christian, Frontend Developer focused on performance and accessibility.");
+      }
+    }
+
     function setLanguage(lang) {
       const pt = document.getElementById('cv-pt');
       const en = document.getElementById('cv-en');
@@ -418,6 +468,7 @@
       }
 
       currentLang = lang;
+      updateMetaTags(lang);
     }
 
     function downloadPDF() {
