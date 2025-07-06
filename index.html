@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Currículo - Lucas Christian</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Inter:wght@400;500;600&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #fff;
+      color: #111;
+      font-size: 0.9rem;
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+    }
+
+    header,
+    section {
+      margin-bottom: 1rem;
+      border-left: 3px solid #0077cc;
+      padding-left: 0.75rem;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.6rem;
+      color: #005aab;
+      margin-bottom: 0.3rem;
+    }
+
+    h2 {
+      font-family: 'Orbitron', sans-serif;
+      color: #0077cc;
+      font-size: 1.1rem;
+      margin-bottom: 0.3rem;
+    }
+
+    p,
+    li {
+      font-size: 0.85rem;
+      line-height: 1.4rem;
+      text-align: justify;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.4rem;
+      margin-top: 0.4rem;
+    }
+
+    .contact-card {
+      background-color: #f0f4fa;
+      padding: 0.5rem 0.75rem;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .contact-card i {
+      color: #0077cc;
+      font-size: 1rem;
+      width: 20px;
+    }
+
+    .contact-card a {
+      text-decoration: none;
+      color: #0077cc;
+      word-break: break-word;
+      font-size: 0.75rem;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.4rem;
+    }
+
+    .skill-item {
+      background-color: #f0f4fa;
+      padding: 0.4rem;
+      border-radius: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .rank {
+      background-color: #0077cc;
+      color: #fff;
+      padding: 0.15rem 0.5rem;
+      border-radius: 1rem;
+      font-weight: bold;
+      font-size: 0.75rem;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    .cv-options {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      z-index: 999;
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .button-root {
+      color: #0077cc;
+      border: 1px solid #0077cc;
+      padding: 0.3rem 0.8rem;
+      border-radius: 5px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .button-root:hover {
+      opacity: 0.7;
+    }
+
+    .download-button {
+      font-family: 'Orbitron', sans-serif;
+      border: none;
+      background-color: #FFFFFF;
+      color: #0077cc;
+      cursor: pointer;
+    }
+
+    /* Dropdown de Idioma */
+    .lang-dropdown button {
+      font-family: 'Orbitron', sans-serif;
+      background-color: #FFFFFF;
+    }
+
+    .lang-dropdown div button {
+      color: #0077cc;
+      border: none;
+      cursor: pointer;
+    }
+
+    .lang-dropdown button:hover {
+      opacity: 0.7;
+    }
+    .lang {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 2.2rem;
+      left: 0;
+      background-color: white;
+      min-width: 120px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .dropdown-content div {
+      padding: 0.4rem 0.6rem;
+      cursor: pointer;
+      font-size: 0.85rem;
+      color: #333;
+    }
+
+    .dropdown-content div:hover {
+      background-color: #f0f0f0;
+    }
+
+    @media print {
+
+      .download-button,
+      .lang-dropdown {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cv-options">
+    <!-- Dropdown de Idioma -->
+    <div class="lang-dropdown">
+      <div class="button-root"
+        style="border:none; border-radius: 0; border-bottom: 1px solid #0077cc; gap: 8px; padding-right: 4px; padding-left: 4px;">
+        <div style="display: flex; align-items: center; gap: 4px;">
+          <i class="fas fa-globe"></i>
+          <button id="lang-selected" onclick="toggleDropdown()">
+            Idioma
+          </button>
+        </div>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+      <div class="dropdown-content" id="dropdown" style="display: none;">
+        <div onclick="setLanguage('pt')" class="lang">
+          <img
+            src="https://flagcdn.com/w20/br.png"
+            srcset="https://flagcdn.com/w40/br.png 2x"
+            width="20"
+            alt="BR" 
+          /> Português</div>
+        <div onclick="setLanguage('en')" class="lang">
+          <img
+            src="https://flagcdn.com/w20/us.png"
+            srcset="https://flagcdn.com/w40/us.png 2x"
+            width="20"
+            alt="US"
+          /> English</div>
+      </div>
+    </div>
+    <div class="button-root">
+      <i class="fas fa-download"></i>
+      <button class="download-button" onclick="downloadPDF()">
+        Baixar PDF
+      </button>
+    </div>
+
+  </div>
+
+  <div id="cv-content" style="margin: auto; padding: 0.5cm;">
+
+    <!-- INÍCIO: Conteúdo em Português -->
+    <div id="cv-pt" style="display: block;">
+      <header>
+        <h1>Lucas Christian Freitas de Oliveira</h1>
+        <div class="contact-grid">
+          <div class="contact-card"><i class="fas fa-envelope"></i><a
+              href="mailto:lucas.christian.programmer@gmail.com">lucas.christian.programmer@gmail.com</a></div>
+          <div class="contact-card"><i class="fab fa-github"></i><a href="https://github.com/Lucas-Christian"
+              target="_blank">github.com/Lucas-Christian</a></div>
+          <div class="contact-card"><i class="fab fa-linkedin"></i><a
+              href="https://www.linkedin.com/in/lucas-christian-226846245/"
+              target="_blank">linkedin.com/in/lucas-christian</a></div>
+          <div class="contact-card"><i class="fab fa-youtube"></i><a href="https://www.youtube.com/@dev-luch"
+              target="_blank">@dev-luch</a></div>
+        </div>
+      </header>
+      <section>
+        <h2>🎯 Objetivo Profissional</h2>
+        <p><strong>Frontend Developer</strong></p>
+      </section>
+      <section>
+        <h2>🧠 Resumo Profissional</h2>
+        <p>Sou um desenvolvedor com perfil autodidata apaixonado por resolver problemas reais utilizando tecnologia.
+          Tenho experiência em desenvolvimento frontend com foco em usabilidade, performance e acessibilidade.</p>
+      </section>
+      <section>
+        <h2>💼 Experiência Profissional</h2>
+        <p><strong>Estágio | MStore Digital</strong><br>📅 Jan/2024 a Jan/2025</p>
+        <ul>
+          <li>• Desenvolvimento de interfaces responsivas e modernas.</li>
+          <li>• Colaboração com times multidisciplinares para entrega ágil.</li>
+          <li>• Otimização de desempenho em aplicações React.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>📌 Projetos</h2>
+        <p><strong>Freelancer | VGPlast</strong><br>📅 Nov/2024</p>
+        <ul>
+          <li>• Implementação de monitoramento em tempo real via sensores IoT.</li>
+          <li>• Desenvolvimento de dashboards interativos.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>🛠️ Habilidades</h2>
+        <div class="skills">
+          <div class="skill-item">TypeScript <span class="rank">S</span></div>
+          <div class="skill-item">React.js <span class="rank">S</span></div>
+          <div class="skill-item">Git & GitHub <span class="rank">S</span></div>
+          <div class="skill-item">HTML5 & CSS3 <span class="rank">S</span></div>
+          <div class="skill-item">PostgreSQL & MongoDB <span class="rank">A</span></div>
+          <div class="skill-item">Next.js <span class="rank">A</span></div>
+          <div class="skill-item">Redux & react-query <span class="rank">A</span></div>
+          <div class="skill-item">Prisma <span class="rank">A</span></div>
+          <div class="skill-item">Figma <span class="rank">A</span></div>
+          <div class="skill-item">Jest & Cypress <span class="rank">A</span></div>
+          <div class="skill-item">Node.js <span class="rank">A</span></div>
+          <div class="skill-item">Docker <span class="rank">A</span></div>
+        </div>
+      </section>
+      <section>
+        <h2>🎓 Formação</h2>
+        <p><strong>Fatec Cotia</strong><br>Conclusão: Dez/2025</p>
+      </section>
+      <section>
+        <h2>🌍 Idiomas</h2>
+        <p>Inglês: Intermediário</p>
+      </section>
+    </div>
+    <!-- FIM: Conteúdo em Português -->
+
+    <!-- INÍCIO: Conteúdo em Inglês -->
+    <div id="cv-en" style="display: none;">
+      <header>
+        <h1>Lucas Christian Freitas de Oliveira</h1>
+        <div class="contact-grid">
+          <div class="contact-card"><i class="fas fa-envelope"></i><a
+              href="mailto:lucas.christian.programmer@gmail.com">lucas.christian.programmer@gmail.com</a></div>
+          <div class="contact-card"><i class="fab fa-github"></i><a href="https://github.com/Lucas-Christian"
+              target="_blank">github.com/Lucas-Christian</a></div>
+          <div class="contact-card"><i class="fab fa-linkedin"></i><a
+              href="https://www.linkedin.com/in/lucas-christian-226846245/"
+              target="_blank">linkedin.com/in/lucas-christian</a></div>
+          <div class="contact-card"><i class="fab fa-youtube"></i><a href="https://www.youtube.com/@dev-luch"
+              target="_blank">@dev-luch</a></div>
+        </div>
+      </header>
+      <section>
+        <h2>🎯 Professional Objective</h2>
+        <p><strong>Frontend Developer</strong></p>
+      </section>
+      <section>
+        <h2>🧠 Summary</h2>
+        <p>I am a self-taught developer passionate about solving real-world problems using technology. Experienced in
+          frontend development with focus on usability, performance, and accessibility.</p>
+      </section>
+      <section>
+        <h2>💼 Work Experience</h2>
+        <p><strong>Internship | MStore Digital</strong><br>📅 Jan/2024 to Jan/2025</p>
+        <ul>
+          <li>• Development of modern and responsive interfaces.</li>
+          <li>• Collaboration with multidisciplinary teams for agile delivery.</li>
+          <li>• Performance optimization in React applications.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>📌 Projects</h2>
+        <p><strong>Freelancer | VGPlast</strong><br>📅 Nov/2024</p>
+        <ul>
+          <li>• Implementation of real-time monitoring via IoT sensors.</li>
+          <li>• Development of interactive dashboards.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>🛠️ Skills</h2>
+        <div class="skills">
+          <div class="skill-item">TypeScript <span class="rank">S</span></div>
+          <div class="skill-item">React.js <span class="rank">S</span></div>
+          <div class="skill-item">Git & GitHub <span class="rank">S</span></div>
+          <div class="skill-item">HTML5 & CSS3 <span class="rank">S</span></div>
+          <div class="skill-item">PostgreSQL & MongoDB <span class="rank">S</span></div>
+          <div class="skill-item">Next.js <span class="rank">A</span></div>
+          <div class="skill-item">Redux & react-query <span class="rank">A</span></div>
+          <div class="skill-item">Prisma <span class="rank">A</span></div>
+          <div class="skill-item">Figma <span class="rank">A</span></div>
+          <div class="skill-item">Jest & Cypress <span class="rank">A</span></div>
+          <div class="skill-item">Node.js <span class="rank">A</span></div>
+          <div class="skill-item">Docker <span class="rank">A</span></div>
+        </div>
+      </section>
+      <section>
+        <h2>🎓 Education</h2>
+        <p><strong>Fatec Cotia</strong><br>Expected graduation: Dec/2025</p>
+      </section>
+      <section>
+        <h2>🌍 Languages</h2>
+        <p>English: Intermediate</p>
+      </section>
+    </div>
+    <!-- FIM: Conteúdo em Inglês -->
+
+  </div>
+
+  <script>
+    let currentLang = 'pt';
+
+    function toggleDropdown() {
+      const dropdown = document.getElementById("dropdown");
+      dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+    }
+
+    window.onclick = function (event) {
+      if (!event.target.matches('#lang-selected')) {
+        document.getElementById("dropdown").style.display = "none";
+      }
+    };
+
+    function setLanguage(lang) {
+      const pt = document.getElementById('cv-pt');
+      const en = document.getElementById('cv-en');
+      const downloadBtn = document.querySelector('.download-button');
+      const langLabel = document.getElementById('lang-selected');
+
+      if (lang === 'pt') {
+        pt.style.display = 'block';
+        en.style.display = 'none';
+        downloadBtn.innerText = 'Baixar PDF';
+        langLabel.innerText = 'Idioma';
+      } else {
+        pt.style.display = 'none';
+        en.style.display = 'block';
+        downloadBtn.innerText = 'Download PDF';
+        langLabel.innerText = 'Language';
+      }
+
+      currentLang = lang;
+    }
+
+    function downloadPDF() {
+      const element = document.getElementById('cv-content');
+
+      const opt = {
+        margin: 0,
+        filename: currentLang === 'pt'
+          ? 'curriculo-lucas-christian.pdf'
+          : 'resume-lucas-christian.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true },
+        jsPDF: { unit: 'cm', format: 'a4', orientation: 'portrait' },
+        pagebreak: { avoid: ['section', 'header'] }
+      };
+
+      html2pdf().set(opt).from(element).save();
+    }
+
+    // Define o idioma padrão na primeira carga
+    window.onload = () => setLanguage(currentLang);
+  </script>
+</body>
+
+</html>
