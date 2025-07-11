@@ -26,3 +26,4 @@ I'm a self-taught developer passionate about solving real-world problems through
 * 💼 [LinkedIn](https://www.linkedin.com/in/lucas-christian-226846245/)
 * 💻 [GitHub](https://github.com/Lucas-Christian)
 * 📹 [YouTube - @dev-luch](https://www.youtube.com/@dev-luch)
+* 📄 [CV Lucas Christian](https://cv.dev-luch.com)
